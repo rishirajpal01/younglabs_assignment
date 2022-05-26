@@ -77,11 +77,9 @@ const MentalMath = () => {
                         while stimulating their brain and improving observation skills.
                         </p>
 
-                        <h1 className='font-bold text-xl text-sky-700 my-4'>
-                            Details
-                            <span>
-                                <IoIosArrowDropdown />
-                            </span>
+                        <h1 className='flex font-bold text-xl text-sky-700 my-4'>
+                            <p>Details</p>
+                            <div className='mx-6'><IoIosArrowDropdown /></div>                            
                         </h1>
 
                         <div>CLASS 1- Criss-cross multiplication</div>
@@ -100,12 +98,11 @@ const MentalMath = () => {
                 {/* Box 2 Homework */}
                 <div className='border-2 rounded-md my-4'>
                     <div className='mx-8 py-4'>
-                        <h1 className='font-bold text-2xl text-sky-700 my-4'>Homework</h1>
-                        
-                            <span>
-                                <IoIosArrowDropdown />
-                            </span>
-
+                    <h1 className='flex font-bold text-xl text-sky-700 my-4'>
+                        <p>Homework</p>
+                        <div className='mx-6'><IoIosArrowDropdown /></div>                       
+                    </h1>
+                            
                         <div>Comprehensive home assignments will be provided , which will be an extension of what is done is the class.</div>                        
                     </div>
                 </div>
@@ -113,16 +110,13 @@ const MentalMath = () => {
                 {/* Box 3 Learning Goals */}
                 <div className='border-2 rounded-md my-4'>
                     <div className='mx-8 py-4'>
-                        <h1 className='font-bold text-2xl text-sky-700 my-4'>Learning Goals</h1>
-                        
-                            <span>
-                                <IoIosArrowDropdown />
-                            </span>
-
-                        <div>Have Fun with Math! Get rid of your Math phobia. Become a Human Calculator yourself and be able to calculate 10-15 times faster than before!</div>                        
+                    <h1 className='flex font-bold text-xl text-sky-700 my-4'>
+                        <p>Learning Goals</p>
+                        <div className='mx-6'><IoIosArrowDropdown /></div>                         
+                    </h1>
+                    <div>Have Fun with Math! Get rid of your Math phobia. Become a Human Calculator yourself and be able to calculate 10-15 times faster than before!</div>                        
                     </div>
                 </div>
-
 
             </div>
         </>
